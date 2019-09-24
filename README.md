@@ -10,7 +10,6 @@ The requirements are:
 
 •	A simple web shop GUI where user can select, search and add shells.
 •	Display List of available Model Shells available in the shop
-
 •	Display Shell brand, manufacturer, color details according to the searched model number.
 •	It should include functionality to add phones and information about the manufacturer, model and other necessary information that may be of interest.
 •	To retrieve and save information, use web services.
@@ -24,6 +23,7 @@ WorkFlow:
 - Entity Package is com.shellentity. Entity Class is Shell.java.
 - Number of entity classes depends on the number of tables in the database.
 - ShellFacadeREST.java is the restful webservice class for shell entity (basically this is the REST front end of our application).
+- Servlet mappings are in web.xml.
 
 index.jsp is used for display purpose through which JSP can call servlet, webservice and can get the response which will display in this JSP page. 
 Three java files in controller package are used for servlet. Two java files in mobileShellClient package which is used to implement retrieve and save information using webservice call.
