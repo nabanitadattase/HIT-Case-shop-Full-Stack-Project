@@ -9,9 +9,13 @@ The goal of the project is to create a backend application  for a web shop that 
 The requirements are:
 
 •	A simple web shop GUI where user can select, search and add shells.
+
 •	Display List of available Model Shells available in the shop
+
 •	Display Shell brand, manufacturer, color details according to the searched model number.
+
 •	It should include functionality to add phones and information about the manufacturer, model and other necessary information that may be of interest.
+
 •	To retrieve and save information, use web services.
 
 WorkFlow: 
